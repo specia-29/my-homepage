@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+
+.header-cont {
+  width: 1024px;
+  height: 70px;
+  display: flex;
+  margin: 0 auto;
+}
+
+img.logo {
+  width: 156px;
+  height: 70px;
+}
+
+.nav {
+  width: 868px;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  line-height: 70px;
+}
+
+.nav-list {
+  padding: 0px 30px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url("images/mv.png");
+  background-repeat:no-repeat;
+  background-position:50%;
+  background-size: cover;
+  color: #FAFAFA;
+  text-align: center;
+}
+
+.main-visual .heading {
+  padding-top: 200px;
+  font-size: 64px;
+  font-family: Raleway, sans-serif;
+}
+
+.main-visual .mv-text {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.portfolio {
+  width: 100%;
+  height: 881px;
+  background-color: #ECEFF1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pf-explain {
+  width: 1024px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 90px;
+  font-size: 32px;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+}
+
+h2{
+   position:relative;
+}
+
+h2::after{
+   content:"";
+   display:block;
+   width:70px;
+   height:3px;
+   background-color:#ec715f;
+   margin: 8px 477px 0px;
+}
+
+.text {
+  padding-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.pf-pic {
+  width: 920px;
+  height: 600px;
+  padding: 30px 0px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pf-pic img {
+  width: 300px;
+  height: 250px;
+  padding: 5px;
+  object-fit: cover;
+}
+
+
+.feature {
+  width: 100%;
+  background-color: #fff;
+}
+
+.feature-cont {
+  width: 1024px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.strength-group {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  padding: 30px 0px 90px;
+}
+
+.strength {
+  width: 320px;
+  margin: 0px 5px;
+  text-align: center;
+}
+
+.strength-title {
+  margin-top: 6px;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+.strength-text {
+  text-align: left;
+}
+
+.profile {
+  width: 100%;
+  background-color: #ECEFF1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-cont {
+  width: 1024px;
+}
+
+.profile-group {
+  display: flex;
+  margin: 30px 0 90px;
+}
+
+.my-face {
+  width: 250px;
+  height: 250px;
+  background-image: url(images/my-icon.jpg);
+  background-repeat:no-repeat;
+  background-position:50%;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 131px;
+}
+
+.right-content {
+  width: 512px;
+}
+
+.description-title1 {
+  font-size: 20px;
+  margin: 0 0 5px;
+}
+
+.description-title2 {
+  font-size: 20px;
+  margin: 20px 0 5px;
+}
+
+.contact {
+  width: 100%;
+  background-color: #fff;
+}
+
+.contact-cont {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.contact-group {
+  width: 800px;
+  display: flex;
+  margin: 0 112px;
+  padding: 30px 0 90px;
+}
+
+.left-content1 {
+  width: 512px;
+  text-align: center;
+}
+
+.left-content2 {
+  width: 400px;
+  text-align: center;
+}
+
+.left-contact-content2 {
+  margin: 0 135px;
+  text-align: left;
+}
+
+.description-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact a {
+  color: black;
+}
+
+.right-content1 {
+}
+
+.right-content2 {
+  width: 400px;
+}
+
+.right-contact-content2 {
+  margin: 0 115px;
+  text-align: center;
+}
+
+.description-title3 {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.fa {
+  padding-left: 2px;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
+}
+
+
+/* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
+@media screen and (max-width:768px) {
+}
