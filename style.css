@@ -184,20 +184,19 @@ h2::after{
 
 .right-content2 {
   width: 400px;
-}
-
-.right-contact-content2 {
   margin: 0 115px;
   text-align: center;
 }
 
-.description-title3 {
+
+.sns {
   text-align: left;
   margin-bottom: 5px;
 }
 
 .fa {
   padding-left: 2px;
+  text-decoration: none;
 }
 
 .footer {
