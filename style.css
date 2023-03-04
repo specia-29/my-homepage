@@ -92,6 +92,10 @@ h2::after{
   position: relative;
 }
 
+.summer {
+  position: relative;
+}
+
 .pf-pic img {
   width: 300px;
   height: 250px;
