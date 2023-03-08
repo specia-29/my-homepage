@@ -115,7 +115,6 @@ h2::after{
   height: 250px;
   padding: 5px;
   object-fit: cover;
-  opacity: 0.5;
 }
 
 .pf-pic p {
@@ -244,6 +243,16 @@ h2::after{
   color: #FAFAFA;
   text-align: center;
   line-height: 60px;
+}
+
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+}
+
+#back img {
+  width: 50px;
 }
 
 
