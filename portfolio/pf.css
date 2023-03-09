@@ -33,11 +33,28 @@ header {
   font-size: 26px;
 }
 
-ul a {
+.nav a {
   text-decoration: none;
   color: #FAFAFA;
 }
 
+.pf-nav {
+  width: 1024px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.pf-nav-list {
+  padding: 0px 45px;
+}
+
+.pf-nav a {
+  text-decoration: none;
+  color: #F84031;
+  font-size: 18px;
+}
 
 .title {
   width: 100%;
@@ -45,7 +62,7 @@ ul a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 40px 0;
+  padding: 40px 0 0;
 }
 
 .pf-explain {
