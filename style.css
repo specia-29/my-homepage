@@ -33,9 +33,13 @@ header {
   font-size: 26px;
 }
 
-ul a {
+.nav a {
   text-decoration: none;
   color: #FAFAFA;
+}
+
+.nav a:hover {
+  color: #F84031;
 }
 
 .pf-explain a {
@@ -54,6 +58,10 @@ ul a {
 .pf-explain {
   width: 1024px;
   text-align: center;
+}
+
+.pf-explain a:hover {
+  color: #F84031;
 }
 
 .heading {
@@ -91,27 +99,7 @@ h2::after{
   justify-content: center;
 }
 
-.spring {
-  position: relative;
-}
-
-.summer {
-  position: relative;
-}
-
-.autumn {
-  position: relative;
-}
-
-.winter {
-  position: relative;
-}
-
-.me {
-  position: relative;
-}
-
-.portrait {
+.season {
   position: relative;
 }
 
@@ -122,7 +110,11 @@ h2::after{
   object-fit: cover;
 }
 
-.pf-pic p {
+.season:hover {
+  opacity: 0.5;
+}
+
+.pf-font {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -131,12 +123,14 @@ h2::after{
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
-  color: white;
+  color: #FFF;
   font-weight: bold;
   font-size: 2em;
 }
 
-
+.pf-font:hover {
+  color: #000000;
+}
 
 .profile {
   width: 100%;
@@ -218,6 +212,10 @@ h2::after{
 
 .contact a {
   color: black;
+}
+
+.contact a:hover {
+  color: #F84031;
 }
 
 .right-content1 {

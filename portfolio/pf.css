@@ -38,27 +38,33 @@ header {
   color: #FAFAFA;
 }
 
+.nav a:hover {
+  color: #F84031;
+}
+
 .pf-nav {
   width: 1024px;
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .pf-nav-list {
-  padding: 0px 45px;
+  padding: 20px 40px 0;
 }
 
 .pf-nav a {
-  text-decoration: none;
-  color: #F84031;
+  color: #696969;
   font-size: 18px;
+}
+
+.pf-nav a:hover {
+  color: #F84031;
 }
 
 .title {
   width: 100%;
-  background-color: #ECEFF1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
