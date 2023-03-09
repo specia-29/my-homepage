@@ -38,27 +38,162 @@ ul a {
   color: #FAFAFA;
 }
 
+
+.title {
+  width: 100%;
+  background-color: #ECEFF1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.pf-explain {
+  width: 1024px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 32px;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+}
+
+h2{
+   position:relative;
+}
+
+/*titleに下線*/
+h2::after{
+   content:"";
+   display:block;
+   width:70px;
+   height:3px;
+   background-color:#ec715f;
+   margin: 8px 477px 0px;
+}
+
+.text {
+  padding-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.portfolio {
+  width: 1024px;
+  margin: auto;
+}
+
+
+/*春の写真*/
+.spring {
+  padding-top: 30px;
+  font-size: 28px;
+  font-family: Raleway, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ee86a2;
+}
+.spring:before,
+.spring:after {
+  border-top: 1px solid black;
+  content: "";
+  width: 20px;
+  border-color: #ee86a2;
+}
+.spring:before {
+  margin-right: 10px;
+}
+.spring:after {
+  margin-left: 10px;
+}
+
+/*夏の写真*/
+.summer {
+  padding-top: 30px;
+  font-size: 28px;
+  font-family: Raleway, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4b9cb7;
+}
+.summer:before,
+.summer:after {
+  border-top: 1px solid black;
+  content: "";
+  width: 20px;
+  border-color: #4b9cb7;
+}
+.summer:before {
+  margin-right: 10px;
+}
+.summer:after {
+  margin-left: 10px;
+}
+
+/*秋の写真*/
+.autumn {
+  padding-top: 30px;
+  font-size: 28px;
+  font-family: Raleway, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e07d12;
+}
+.autumn:before,
+.autumn:after {
+  border-top: 1px solid black;
+  content: "";
+  width: 20px;
+  border-color: #e07d12;
+}
+.autumn:before {
+  margin-right: 10px;
+}
+.autumn:after {
+  margin-left: 10px;
+}
+
+/*冬の写真*/
+.winter {
+  padding-top: 30px;
+  font-size: 28px;
+  font-family: Raleway, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #405572;
+}
+.winter:before,
+.winter:after {
+  border-top: 1px solid black;
+  content: "";
+  width: 20px;
+  border-color: #405572;
+}
+.winter:before {
+  margin-right: 10px;
+}
+.winter:after {
+  margin-left: 10px;
+}
+
+.pf-pic {
+  padding: 30px 0px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .pf-pic img {
   width: 300px;
   height: 250px;
   padding: 5px;
   object-fit: cover;
 }
-
-.pf-pic p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-  color: #fff;
-  font-weight: bold;
-  font-size: 2em;
-}
-
 
 .footer {
   width: 100%;

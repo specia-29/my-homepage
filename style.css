@@ -63,6 +63,7 @@ h2{
    position:relative;
 }
 
+/*titleに下線*/
 h2::after{
    content:"";
    display:block;
