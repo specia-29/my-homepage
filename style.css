@@ -38,6 +38,10 @@ ul a {
   color: #FAFAFA;
 }
 
+.pf-explain a {
+  text-decoration: none;
+  color: #000000;
+}
 
 .portfolio {
   width: 100%;
