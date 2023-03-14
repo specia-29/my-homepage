@@ -42,10 +42,15 @@ header {
   color: #F84031;
 }
 
-.pf-explain a {
+.profile a {
   text-decoration: none;
   color: #000000;
 }
+
+.profile a:hover {
+  color: #F84031;
+}
+
 
 .portfolio {
   width: 100%;
@@ -58,6 +63,11 @@ header {
 .pf-explain {
   width: 1024px;
   text-align: center;
+}
+
+.pf-explain a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .pf-explain a:hover {
@@ -159,6 +169,12 @@ h2::after{
   margin: 0 131px;
 }
 
+.my-face:hover {
+  background-image: url(images/me/icon.PNG);
+  background-color: rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+}
+
 .right-content {
   width: 512px;
 }
@@ -167,6 +183,7 @@ h2::after{
   font-size: 20px;
   margin: 0 0 5px;
 }
+
 
 .description-title2 {
   font-size: 20px;
