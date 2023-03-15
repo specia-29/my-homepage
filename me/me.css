@@ -102,130 +102,18 @@ h2::after{
   text-align: center;
 }
 
-.portfolio {
-  width: 1024px;
-  margin: auto;
-}
-
-
-/*春の写真*/
-.spring {
-  padding-top: 30px;
-  font-size: 28px;
-  font-family: Raleway, sans-serif;
+.profile {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  color: #ee86a2;
-}
-.spring:before,
-.spring:after {
-  border-top: 1px solid black;
-  content: "";
-  width: 20px;
-  border-color: #ee86a2;
-}
-.spring:before {
-  margin-right: 10px;
-}
-.spring:after {
-  margin-left: 10px;
 }
 
-/*夏の写真*/
-.summer {
-  padding-top: 30px;
-  font-size: 28px;
-  font-family: Raleway, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #4b9cb7;
-}
-.summer:before,
-.summer:after {
-  border-top: 1px solid black;
-  content: "";
-  width: 20px;
-  border-color: #4b9cb7;
-}
-.summer:before {
-  margin-right: 10px;
-}
-.summer:after {
-  margin-left: 10px;
+.left-cont {
+  width: 600px;
 }
 
-/*秋の写真*/
-.autumn {
-  padding-top: 30px;
-  font-size: 28px;
-  font-family: Raleway, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #e07d12;
-}
-.autumn:before,
-.autumn:after {
-  border-top: 1px solid black;
-  content: "";
-  width: 20px;
-  border-color: #e07d12;
-}
-.autumn:before {
-  margin-right: 10px;
-}
-.autumn:after {
-  margin-left: 10px;
-}
-
-/*冬の写真*/
-.winter {
-  padding-top: 30px;
-  font-size: 28px;
-  font-family: Raleway, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #405572;
-}
-.winter:before,
-.winter:after {
-  border-top: 1px solid black;
-  content: "";
-  width: 20px;
-  border-color: #405572;
-}
-.winter:before {
-  margin-right: 10px;
-}
-.winter:after {
-  margin-left: 10px;
-}
-
-/*ポートレート*/
-.portrait {
-  padding-top: 30px;
-  font-size: 28px;
-  font-family: Raleway, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #6BC3E1;
-}
-.portrait:before,
-.portrait:after {
-  border-top: 1px solid black;
-  content: "";
-  width: 20px;
-  border-color: #6BC3E1;
-}
-.portrait:before {
-  margin-right: 10px;
-}
-.portrait:after {
-  margin-left: 10px;
+.right-cont {
+  width: 600px;
 }
 
 .pf-pic {
@@ -236,12 +124,25 @@ h2::after{
 }
 
 .pf-pic img {
-  width: 300px;
-  height: 300px;
-  padding: 5px;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
   object-fit: cover;
 }
 
+.main-pic {
+  padding: 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-pic img {
+  width: 550px;
+  height: 700px;
+  padding: 10px 20px;
+  object-fit: cover;
+}
 .footer {
   width: 100%;
   height: 60px;
