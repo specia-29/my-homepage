@@ -101,6 +101,10 @@ h2::after{
   text-align: center;
 }
 
+.description-text strong {
+  color: #ff4500;
+}
+
 .pf-pic {
   width: 920px;
   height: 380px;
@@ -122,6 +126,8 @@ h2::after{
 
 .season:hover {
   opacity: 0.5;
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
 }
 
 .pf-font {
@@ -161,22 +167,21 @@ h2::after{
 .my-face {
   width: 250px;
   height: 250px;
-  background-image: url(images/me/icon.PNG);
+  background-image: url(images/me/winter-cam.jpg);
   background-repeat:no-repeat;
   background-position:50%;
   background-size: cover;
-  border-radius: 40%;
+  border-radius: 50%;
   margin: 0 131px;
 }
 
 .my-face:hover {
-  background-image: url(images/me/icon.PNG);
   background-color: rgba(255,255,255,0.8);
   background-blend-mode:lighten;
-}
-
-.right-content {
-  width: 512px;
+  border-radius: 50%;
+  border: 0.3px solid #dcdcdc;
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
 }
 
 .description-title1 {
@@ -236,6 +241,8 @@ h2::after{
 }
 
 .right-content1 {
+  width: 512px;
+  margin-top: 40px;
 }
 
 .right-content2 {
