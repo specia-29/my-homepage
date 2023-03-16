@@ -96,12 +96,6 @@ h2::after{
    margin: 8px 477px 0px;
 }
 
-.text {
-  padding-top: 30px;
-  font-size: 16px;
-  text-align: center;
-}
-
 .profile {
   width: 100%;
   display: flex;
@@ -112,12 +106,49 @@ h2::after{
   width: 600px;
 }
 
+.desc {
+  width: 500px;
+  margin-left: 55px;
+}
+
+.text {
+  padding: 30px 0;
+  font-size: 16px;
+}
+
+.canon {
+  color: #dc143c;
+}
+
+.sony {
+  color: #ff4500;
+}
+
+.bold {
+  font-size: 14px;
+}
+
 .right-cont {
   width: 600px;
 }
 
+.text-introduce {
+  padding: 10px 45px;
+  font-size: 12px;
+}
+
+.fa {
+  margin: 10px 0;
+  text-decoration: none;
+  color: gray;
+}
+
+.fa:hover {
+  color: #F84031;
+}
+
 .pf-pic {
-  padding: 30px 0px;
+  padding: 30px 0px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -126,7 +157,7 @@ h2::after{
 .pf-pic img {
   width: 250px;
   height: 250px;
-  margin: 10px;
+  padding: 10px;
   object-fit: cover;
 }
 
@@ -151,8 +182,6 @@ h2::after{
   color: #FAFAFA;
   text-align: center;
   line-height: 60px;
-  position: absolute;
-  bottom: 0;
 }
 
 #back {
