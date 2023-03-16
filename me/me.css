@@ -125,7 +125,7 @@ h2::after{
 
 .pf-pic img {
   width: 250px;
-  height: 200px;
+  height: 250px;
   margin: 10px;
   object-fit: cover;
 }
@@ -151,6 +151,8 @@ h2::after{
   color: #FAFAFA;
   text-align: center;
   line-height: 60px;
+  position: absolute;
+  bottom: 0;
 }
 
 #back {
