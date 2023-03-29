@@ -60,6 +60,10 @@ header {
   justify-content: center;
 }
 
+.pf-cont {
+  width: 1024px;
+}
+
 .pf-explain {
   width: 1024px;
   text-align: center;
